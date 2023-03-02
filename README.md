@@ -22,7 +22,9 @@ language works at a core level.
 ## How To Test
 Testing scripts are provided:
 ### C
-On a linux command line, navigate to the `c` directory and run `sh test.sh`.
+On a linux command line, navigate to datastructures root directory and
+run `sh test.sh`.  You should see lines with `+ PASSED test_{function_name}`
+and valgrind output with no memory leaks.
 
 
 ## How To Use
